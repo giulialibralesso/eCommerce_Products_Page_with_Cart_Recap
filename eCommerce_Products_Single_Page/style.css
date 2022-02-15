@@ -1,0 +1,128 @@
+* {
+  align-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  margin-left: 40%;
+  padding-top: 05%;
+  padding-bottom: 05%;
+}
+
+.description {
+  margin-left: 10%;
+}
+
+.price {
+  margin-left: 20%;
+}
+
+.added-product-price {
+  margin-left: 50%;
+  margin-bottom: 1%;
+}
+
+.btn {
+  margin-left: 12%;
+}
+
+.btn.btn-outline-success {
+  margin-bottom: 05%;
+}
+
+.btn.btn-outline-danger {
+  margin-left: 27%;
+  font-size: 0.8rem;
+}
+
+.btn.btn-outline-dark {
+  padding-left: 0.1rem;
+  padding-right: 0.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-top: 07%;
+  margin-bottom: 07%;
+}
+
+.card-body {
+  width: 1%;
+  height: 1%;
+}
+
+.plus-btn {
+  margin-left: 40%;
+}
+
+.quantity-recap-btn {
+  margin-left: 03%;
+  margin-right: 03%;
+  font-size: medium;
+  pointer-events: none;
+}
+
+.btn.btn-outline-dark.quantity-recap-btn {
+  text-align: center;
+  font: -webkit-small-control;
+  -webkit-appearance: button;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  padding-left: 02%;
+  padding-right: 03%;
+  padding-bottom: 01%;
+}
+
+.minus-btn {
+  margin-left: 01%;
+}
+
+#buy-btn {
+  margin-left: 82px;
+}
+
+.sidenav {
+  float: right;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-bottom: 03%;
+  padding-right: 04%;
+  border-style: solid;
+}
+
+.img-added-product {
+  max-width: 60%;
+  max-height: 60%;
+  margin-left: 23%;
+}
+
+#cart-description {
+  margin-left: 25%;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.fas {
+  margin-left: 47%;
+  margin-top: 30%;
+  margin-bottom: 10%;
+  display: flex;
+}
+
+#total-price {
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.fa-plus {
+  font-size: 0.7rem;
+}
+
+.fa-minus {
+  font-size: 0.7rem;
+}
